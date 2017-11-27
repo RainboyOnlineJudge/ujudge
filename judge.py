@@ -41,7 +41,7 @@ def run_program_args(
 def run_program(**kwargs):
     # print(kwargs)
     _cmdline = (run_program_args(**kwargs))
-    _cmdline = '/judge/run_program ' + _cmdline
+    _cmdline = '/judge/ujudge ' + _cmdline
     cmd  = _cmdline.split(' ')
     # print(cmd)
     p=subprocess.Popen(cmd,stdout=subprocess.PIPE)
