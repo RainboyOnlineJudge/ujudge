@@ -60,6 +60,23 @@ RS_DGS= 6   包含危险行为
 RS_JGF= 7   ?
 ```
 
+### 通过shell参数调用
+
+```bash
+/jduge/ujudge --tl=3 \
+--ml=128 \
+--ol=128 \
+--sl=128 \
+--in=1.in \
+--out=1.out \
+--err=err \
+--work-path=path \
+--type=default \
+--unsafe \
+--show-trace-details
+
+```
+
 ## 测试
 
 ```bash
