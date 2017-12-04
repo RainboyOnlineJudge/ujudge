@@ -74,8 +74,12 @@ RS_JGF= 7   ?
 --type=default \
 --unsafe \
 --show-trace-details
-
 ```
+
+
+## 评测python3 文件
+
+看demo下的`demo_judge_py3.py`
 
 ## 测试
 

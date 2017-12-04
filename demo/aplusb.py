@@ -1,0 +1,5 @@
+raw_in=input()
+raw_list = raw_in.split(" ")
+a=int(raw_list[0])
+b=int(raw_list[1])
+print(a+b)
