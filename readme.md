@@ -13,6 +13,12 @@ mkdir build
 cd build && cmake .. && make && sudo make install
 ```
 
+or
+
+```
+sudo ./install.sh
+```
+
 ## 使用方法
 
 python3 调用
@@ -37,6 +43,11 @@ judge.run_program(
 )
 ```
 
+具体可以看`demo`文件,
+
+ - `python3 demo_judge_cpp.py`
+ - `python3 demo_judge_py3.py`
+
 返回值如下:
 
 ```
@@ -49,6 +60,7 @@ judge.run_program(
 ```
 
 `result`值的含义
+
 ```
 RS_AC=0     成功
 RS_WA= 1    不会返回这个值
@@ -75,7 +87,6 @@ RS_JGF= 7   ?
 --unsafe \
 --show-trace-details
 ```
-
 
 ## 评测python3 文件
 
